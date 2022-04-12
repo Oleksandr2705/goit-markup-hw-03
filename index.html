@@ -12,27 +12,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <style>
-      /*     Отменяем подчеркивание у ссылок */
+      /*   ----------- Отменяем подчеркивание у ссылок ------------*/
       a {
         text-decoration: none;
       }
     </style>
-  </head>
-  <body>
-    <!--Верхний контейнер   -->
-    <header>
-      <nav>
-        <a href="/" class="logotip"><span class="logotip-end">Web</span> Studio</a>
-        <ul class="site-list">
-          <li><a href="./index.html" class="link-current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+    <!-------------Верхний контейнер -----------------------  -->
+    <header class="heder list">
+      <nav class="heder-kont link">
+        <a href="/" class="logotip link"><span class="logotip-end">Web</span> Studio</a>
+        <ul class="site-list list link">
+          <li><a href="./index.html" class="link-current heder-li list link">Студия</a></li>
+          <li><a href="./portfolio.html" class="heder-li link list">Портфолио</a></li>
+          <li><a href="#" class="heder-li list link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="site-nav-list">
-        <li><a href="mailto:info@devstudio.com" class="link-current">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
+      <ul class="site-nav-list list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="site-nav-list-mail link list">info@devstudio.com</a>
+        </li>
+        <li><a href="tel:+380961111111" class="site-nav-list-contacts contacts link list">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!-- Контейнер Эффективные решения для вашего бизнеса -->
@@ -44,7 +46,7 @@
       <!-- Контейнер Внимание к деталям... -->
       <section>
         <h2 class="benefits-title">Внимание к деталям</h2>
-        <ul>
+        <ul class="benefits-ul list">
           <li>
             <h3 class="benefits-title">Внимание к деталям</h3>
             <p class="benefits-text">
@@ -74,7 +76,7 @@
       <!-- Чем мы занимаемся -->
       <section class="about-us">
         <h2 class="about-us-text">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="about-foto list">
           <li>
             <a href=""><img src="./images/foto1.jpg" alt="foto1" width="370" /></a>
           </li>
@@ -82,14 +84,14 @@
             <a href=""><img src="./images/foto2.jpg" alt="foto2" width="370" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/foto3.jpg" alt="foto3 width="370" /></a>
+            <a href=""><img src="./images/foto3.jpg" alt="foto3" width="370" /></a>
           </li>
         </ul>
       </section>
       <!-- Наша команда -->
       <section>
         <h2 class="about-us-text">Наша команда</h2>
-        <ul>
+        <ul class="about-us-foto list">
           <li>
             <a href=""><img src="./images/people1.jpg" alt="people1" width="270" /></a>
             <h3 class="our-team">Игорь Демьяненко</h3>
@@ -115,19 +117,19 @@
     </main>
     <!-- Футер -->
     <footer>
-      <div class="adress">
-        <a href="/" class="logo-footer"><span class="logotip-end">Web</span> Studio</a>
+      <div class="adress link">
+        <a href="/" class="logo-footer link"><span class="logotip-end">Web</span> Studio</a>
         <address>
-          <ul>
+          <ul class="footer list">
             <li>
-              <a href="#" class="adr-text">г. Киев, пр-т Леси Украинки, 26</a>
+              <a href="#" class="adr-text link">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li>
-              <a href="mailto:info@example.com" class="adr-mail">info@example.com</a>
+              <a href="mailto:info@devstudio.com" class="link-current link list"
+                >info@devstudio.com</a
+              >
             </li>
-            <li>
-              <a href="tel:+380991111111" class="adr-mail">+38 099 111 11 11</a>
-            </li>
+            <li><a href="tel:+380961111111" class="contacts link list">+38 096 111 11 11</a></li>
           </ul>
         </address>
       </div>
