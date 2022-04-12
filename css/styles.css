@@ -1,0 +1,124 @@
+body {
+  background-color: #ffffff;
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  font-size: 14px; 
+  }
+  /* header */
+.logotip {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logotip-end {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.site-li {
+  color: #212121;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link {
+  color: #212121;
+}
+.link-current {
+  color: #2196f3;
+}
+.contacts {
+  color: #757575;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* main */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-button-text {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+}
+/* преймущества */
+.benefits-title {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.benefits-text {
+  color: #757575;
+  line-height: 1.7;
+}
+/* чем мы занимаемся */
+.about-us-text {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* наша команда */
+.our-team {
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.our-team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+/* подвал */
+.adress {
+    background-color: #2f303a;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+.adr-text {
+  font-style: normal;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.adr-mail {
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Портфолио */
+.button-set {
+  background-color: #f5f4fa;
+}
+.button-li {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #212121;
+}
+.portfolio-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
