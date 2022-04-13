@@ -10,6 +10,8 @@ body {
 }
 /* убираем точки*/
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* ------------header----------------------- */
@@ -66,10 +68,10 @@ body {
   letter-spacing: 0.02em;
 }
 .site-nav-list-mail:hover {
-color: #2196f3;
+  color: #2196f3;
 }
 .site-nav-list-mail:focus {
-color: #2196f3;
+  color: #2196f3;
 }
 .site-nav-list-contacts:hover {
   color: #2196f3;
