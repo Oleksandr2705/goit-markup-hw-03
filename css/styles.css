@@ -4,6 +4,11 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /*убираем подчекивание*/
 .link {
   text-decoration: none;
@@ -20,13 +25,19 @@ body {
   color: #000000;
   font-family: Raleway;
   font-size: 26px;
+  font-weight: bold;
+  font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+
 }
 .logotip-end {
   color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
+    font-weight: bold;
+    letter-spacing: 0.03em;
 }
 
 .heder-li {
