@@ -6,6 +6,7 @@
 body {
   background-color: #ffffff;
   font-family: 'Roboto', Tahoma, sans-serif;
+  font-size: 14px;
 }
 :root {
   --header-color: #ffffff;
@@ -51,14 +52,12 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  /* outline: 2px solid tomato; */
+  
 }
 
-/* ---------------------------------ШАПКА САЙТА----------------------------------- */
+/* ----Heder------------------- */
 .header {
   border-bottom: 1px solid #eeeeee;
-
-  /* outline: 2px solid tomato; */
 }
 .nav-container {
   display: flex;
@@ -82,6 +81,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+/* ----Логотип-------*/
 .logo {
   margin-right: 93px;
   font-family: Raleway;
@@ -104,7 +104,6 @@ img {
 .link {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-title-color);
@@ -129,7 +128,6 @@ img {
 .auth-nav-list .link {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-title-color);
@@ -139,7 +137,7 @@ img {
   color: var(--hover-buton-color);
 }
 
-/* ---------------------------------ГЛАВНЫЙ КОНТЕНТ----------------------------------- */
+/* -----------Hero--------------------- */
 
 .hero-section {
   padding-top: 200px;
@@ -196,7 +194,7 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* outline: 2px solid tomato; */
+  
 }
 .benefits-item {
   display: flex;
@@ -216,7 +214,6 @@ img {
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -226,7 +223,6 @@ img {
   background-color: #e5e5e5;
 }
 .section-benefits-text {
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-text-title-color);
@@ -255,12 +251,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-title-color);
 }
-/* ---------------------------------НАША КОМАНДА----------------------------------- */
+/* ------Наша команда--------- */
 .our-team-section {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  /* outline: 2px solid tomato; */
+  
 }
 .our-team {
   margin-bottom: 50px;
@@ -309,7 +305,7 @@ img {
   margin: 0;
 }
 
-/* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
+/* -----------Портфолио---------------- */
 
 .portfolio-section {
   padding-top: 94px;
@@ -358,7 +354,7 @@ img {
 .portfolio-section-list .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  /* outline: 1px solid tomato; */
+  
 }
 .portfolio-section-list .item:nth-child(3n) {
   margin-right: 0;
@@ -389,7 +385,7 @@ img {
   border-right: 1px solid #eeeeee;
 }
 
-/* ---------------------------------ПОДВАЛ----------------------------------- */
+/* -----------Footer----------------- */
 .footer {
   background-color: #2f303a;
   padding-bottom: 60px;
