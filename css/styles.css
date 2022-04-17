@@ -29,15 +29,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
 }
 .logotip-end {
   color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
-    font-weight: bold;
-    letter-spacing: 0.03em;
+  font-weight: bold;
+  letter-spacing: 0.03em;
 }
 
 .heder-li {
@@ -47,15 +46,12 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.heder-li:hover {
-  color: #2196f3;
-}
-
+.heder-li:hover,
 .heder-li:focus {
   color: #2196f3;
 }
 
-.site-list {
+ .site-list {
   color: #212121;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -66,9 +62,7 @@ body {
 .link-current {
   color: #2196f3;
 }
-.link-current:hover {
-  color: #2196f3;
-}
+.link-current:hover,
 .link-current:focus {
   color: #2196f3;
 }
@@ -78,15 +72,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav-list-mail:hover {
-  color: #2196f3;
-}
+.site-nav-list-mail:hover,
 .site-nav-list-mail:focus {
   color: #2196f3;
 }
-.site-nav-list-contacts:hover {
-  color: #2196f3;
-}
+ 
+.site-nav-list-contacts:hover,
 .site-nav-list-contacts:focus {
   color: #2196f3;
 }
